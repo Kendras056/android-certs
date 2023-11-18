@@ -9,5 +9,3 @@ ota_from_target_files -k android-certs/releasekey \
     --block --backup=true \
     signed-target_files.zip \
     signed-ota_update.zip
-
--include android-certs/product.mk
